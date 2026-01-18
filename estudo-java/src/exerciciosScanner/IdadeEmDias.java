@@ -13,6 +13,8 @@ public class IdadeEmDias {
 
         int diasCalculo = scanner.nextInt() * 365;
 
+        scanner.close();
+
         System.out.printf("Idade em dias é: %d",diasCalculo);
     }
 }
